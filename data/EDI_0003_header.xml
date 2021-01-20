@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0008">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0003_header">
     <fileDesc>
         <titleStmt>
-            <title type="main">George Dandin</title>
+            <title type="main">La Comédie des académistes</title>
             <title type="sub">E-Ditiones edition</title>
-            <author ref="isni:0000000123197131">Molière</author>
+            <author ref="isni:0000000118337670">Sorel, Charles</author>
+            <author ref="isni:0000000356744298">Saint-Évremond</author>
             <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
         </titleStmt>
         <extent>
-            <measure unit="words" quantity="17067"/>
-            <measure unit="images" quantity="169"/>
+            <measure unit="words" quantity="9086"/>
+            <measure unit="images" quantity="89"/>
         </extent>
         <publicationStmt>
             <publisher>E-Ditiones project</publisher>
@@ -22,17 +23,20 @@
         </publicationStmt>
         <sourceDesc>
             <bibl>
-                <ref target="https://gallica.bnf.fr/ark:/12148/btv1b8610793w"/>
-                <title>George Dandin</title>
-                <author ref="isni:0000000123197131">Molière</author>
-                <publisher ref="isni:0000000081405798">Ribou, Jean</publisher>
-                <pubPlace ref="geonames:2988507">Paris</pubPlace>
-                <date when="1669">1669</date>
+                <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1524645t"/>
+                <title>La Comédie des académistes pour la réformation de la langue françoise , pièce
+                    comique avec le roole des présentations, faites aux grands jours de ladite
+                    Académie </title>
+                <author ref="isni:0000000118337670">Sorel, Charles</author>
+                <author ref="isni:0000000356744298">Saint-Évremond</author>
+                <publisher/>
+                <pubPlace/>
+                <date when="1650">1650</date>
             </bibl>
         </sourceDesc>
     </fileDesc>
     <revisionDesc>
-        <change who="orcid:0000-0003-0850-8266" when="2020-05-26">Adaptation of the XML-TEI encoding
+        <change who="orcid:0000-0003-0850-8266" when="2021-01-11">Adaptation of the XML-TEI encoding
             according to the new ODD.</change>
     </revisionDesc>
 </teiHeader>

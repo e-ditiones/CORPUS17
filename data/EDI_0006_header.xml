@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0005">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0006_header">
    <fileDesc>
       <titleStmt>
-         <title type="main">Ode</title>
+         <title type="main">L'Amadis de Gaule</title>
          <title type="sub">E-Ditiones edition</title>
-         <author ref="isni:0000000120310178">L'Hermite, Tristan</author>
+         <author ref="isni:0000000122764667">Marcassus</author>
          <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
       </titleStmt>
       <extent>
-         <measure unit="words" quantity="448"/>
-         <measure unit="images" quantity="19"/>
+         <measure unit="words" quantity="44412"/>
+         <measure unit="images" quantity="389"/>
       </extent>
       <publicationStmt>
          <publisher>E-Ditiones project</publisher>
@@ -22,12 +22,12 @@
       </publicationStmt>
       <sourceDesc>
          <bibl>
-            <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k15110763"/>
-            <title>Ode</title>
-            <author ref="isni:0000000120310178">L'Hermite, Tristan</author>
-            <publisher/>
-            <pubPlace/>
-            <date when="1641">1641</date>
+            <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k15108932"/>
+            <title>L'Amadis de Gaule</title>
+            <author ref="isni:0000000122764667">Marcassus</author>
+            <publisher ref="isni:0000000008903969">Rocolet, Pierre</publisher>
+            <pubPlace ref="geonames:2988507">Paris</pubPlace>
+            <date when="1629">1629</date>
          </bibl>
       </sourceDesc>
    </fileDesc>

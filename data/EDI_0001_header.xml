@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0002">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0001_header">
     <fileDesc>
         <titleStmt>
-            <title type="main">L'illusion comique</title>
+            <title type="main">Lettres de Guez de Balzac</title>
             <title type="sub">E-Ditiones edition</title>
-            <author ref="isni:0000000121296128">Corneille, Pierre</author>
+            <author ref="isni:0000000114443046">Guez de Balzac, Jean-Louis</author>
             <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
         </titleStmt>
         <extent>
-            <measure unit="words" quantity="17949"/>
-            <measure unit="images" quantity="152"/>
+            <measure unit="words" quantity="874"/>
+            <measure unit="images" quantity="10"/>
         </extent>
         <publicationStmt>
             <publisher>E-Ditiones project</publisher>
@@ -22,12 +22,12 @@
         </publicationStmt>
         <sourceDesc>
             <bibl>
-                <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1280258r/f9.image"/>
-                <title>L'illusion comique : comédie</title>
-                <author ref="isni:0000000121296128">Corneille, Pierre</author>
-                <publisher ref="isni:0000000416536993">Targa, François</publisher>
+                <ref target="https://gallica.bnf.fr/ark:/12148/btv1b86262420"/>
+                <title>LETTRES DV SIEVR DE BALZAC</title>
+                <author ref="isni:0000000114443046">Guez de Balzac, Jean-Louis</author>
+                <publisher ref="isni:0000000121321725">Toussaint du Bray</publisher>
                 <pubPlace ref="geonames:2988507">Paris</pubPlace>
-                <date when="1639">1639</date>
+                <date when="1624">1624</date>
             </bibl>
         </sourceDesc>
     </fileDesc>

@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schemas/ODD-header_printed.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0003">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_0004_header">
     <fileDesc>
         <titleStmt>
-            <title type="main">La Comédie des académistes</title>
+            <title type="main">L'Amour à la mode</title>
             <title type="sub">E-Ditiones edition</title>
-            <author ref="isni:0000000118337670">Sorel, Charles</author>
-            <author ref="isni:0000000356744298">Saint-Évremond</author>
+            <author ref="isni:000000012281648X">Corneille, Thomas</author>
             <editor ref="orcid:0000-0001-9094-4475">Simon Gabay</editor>
         </titleStmt>
         <extent>
-            <measure unit="words" quantity="9086"/>
-            <measure unit="images" quantity="89"/>
+            <measure unit="words" quantity="20002"/>
+            <measure unit="images" quantity="118"/>
         </extent>
         <publicationStmt>
             <publisher>E-Ditiones project</publisher>
@@ -23,15 +22,14 @@
         </publicationStmt>
         <sourceDesc>
             <bibl>
-                <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1524645t"/>
-                <title>La Comédie des académistes pour la réformation de la langue françoise , pièce
-                    comique avec le roole des présentations, faites aux grands jours de ladite
-                    Académie </title>
-                <author ref="isni:0000000118337670">Sorel, Charles</author>
-                <author ref="isni:0000000356744298">Saint-Évremond</author>
-                <publisher/>
-                <pubPlace/>
-                <date when="1650">1650</date>
+                <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k12803338"/>
+                <title>L'Amour à la mode, comédie</title>
+                <author ref="isni:000000012281648X">Corneille, Thomas</author>
+                <publisher ref="isni:0000000400054498">Maurry, Laurent</publisher>
+                <pubPlace ref="geonames:2982652">Rouen</pubPlace>
+                <publisher ref="isni:0000000360919281">Luynes, Guillaume de</publisher>
+                <pubPlace ref="geonames:2988507">Paris</pubPlace>
+                <date when="1653">1653</date>
             </bibl>
         </sourceDesc>
     </fileDesc>
