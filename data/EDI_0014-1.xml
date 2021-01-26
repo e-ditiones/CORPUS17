@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schemas/ODD-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/e-ditiones/ODD17/master/schemas/ODD-1.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDI_00015-1">
+    <body>
+        <p>
+            <pb n="1" facs=""/>
+            <lb/> "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam,
+            <pb n="2" facs=""/>
+            <lb/>quis nostrud exercitation ullamco laboris nisi ut
+            <lb/>aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate
+            <pb n="3" facs=""/>
+            <lb/>velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat
+            <lb/>non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </body>
+</text>
+
