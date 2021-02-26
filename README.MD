@@ -18,7 +18,9 @@ Texts are encoded following the rules of [ODD17](https://github.com/e-ditiones/O
 
 ## Application
 
-All texts are (or will be) available on [APP17](https://github.com/e-ditiones/APP17), a web publication app built with [TEI Publisher](https://teipublisher.com/index.html).
+All texts are available on [APP17](https://github.com/e-ditiones/APP17), a web publication app built with [TEI Publisher](https://teipublisher.com/index.html).
+
+This application is now available online : [https://e-ditiones.huma-num.fr](https://e-ditiones.huma-num.fr).
 
 ## Credits
 
